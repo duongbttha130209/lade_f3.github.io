@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- inside the head, attach all the exteral links --?
+    <!-- we are linking it yo CSS, Javascript &  Bootsrap 4 -->
+    <!-- We do it because of using a lot of bootstrap, styling code -->
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+<!-- for a Responsive website - add this code -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- I have used few w3 css codes which can be found only in w3schools, so i add their link here -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<!-- give an external link for social media -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!-- for google fonts - add this code -->
+<link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+
+<!-- CSS code for video -->
+/* Style the video: 100% width and height to cover the entire window */
+<style >
+#myVideo {
+ position: sticky;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+  position: sticky;
+  bottom: 80px;
+  color: #191970;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 { font-family: "Merienda One" }
+
+body {
+  font-family: Arial, Helvetica, sans-serif
+  .w3-bar-block .w3-bar-item {padding 20px}
+}
+
+.lade{
+	font-family: "Merienda One", cursiver;
+	font-size: 30px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 15px;
+  padding: 20px;
+}
+
+.about-section {
+  font-family: "Lato";
+  padding: 10px;
+  text-align: center;
+  color: #191970;
+}
+
+.container-fluid {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #0000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+</style>     
+
+<!-- Java code -->
+
+<script>
+// Get the video
+var video = document.getElementById("myVideo");
+
+</script>
+
+<!-- Nav bar -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+	<a class="navbar-brand lade" href="index.html">Lade</a>
+	
+	<ul class="navbar-nav ml-auto">
+	    <li class="nav-item ">
+      <a class="nav-link" href="About.html">About us</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Gallery.html">Gallery</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Blog.html">Blog</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Contact.html">Contact</a>
+    </li>
+  </ul>
+</nav>
+  </head>
+
+<body>
+
+<!-- Video HTML code -->
+<!-- Video -->
+<!-- The video -->
+
+<video autoplay muted loop id="myVideo">
+  <source src="video-3.mp4" type="video/mp4" > <!-- Insert your video here -->
+</video>
+<br>
+
+
+<!-- Optional: some overlay text to describe the video -->
+<div class="content ">
+  <h1 class="lade">Lade is a story</h1>
+  <!-- Use a button to pause/play the video with JavaScript -->
+  <p class="about-section">"Due to this, models may not be guaranteed to get the images returned to them as it is the property of the hiring firm/individual."</p>
+<br>
+<br>
+	  <p>_____________________________</p>
+</div>
+</div>
+
+<!-- ABOUT US -->
+<br>
+<br>
+<div class="about-section">
+ <img src="hoa7.jpg" style="width:100%">
+ <br>
+ <br>
+ <br>
+ <h1 class="lade">I am Regina!</h1>
+ <p>A dreamer in the crazy world of herself. Passionate about household appliances but not like washing dishes :3</p>
+ <p>_____________________________</p>
+</div>
+
+
+<!---_______________ Our team _____________-->
+<br><br><br>
+<br>
+<section>
+<h2 style="text-align:center">Our Team</h2> <br>
+<div class="row ml-5">
+
+<!-- card 1 -->
+<div class="col-lg-4">
+ <div class="card" style="width:450px">
+  <img class="card-img-top" src="hoa.jpg" class="image-fluid" height="300" width="400">
+      <div class="container">
+      	<br>
+        <h2>Jane Doe</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>jane@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+<!-- card 2 -->
+ <div class="col-lg-4">
+<div class="card" style="width:450px">
+  <img class="card-img-top" src="hoa3.jpg" class="image-fluid" height="300" width="400">
+      <div class="container-fluid">
+      	<br>
+        <h2>Mike Ross</h2>
+        <p class="title">Art Director</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>mike@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+<!-- card 3 -->
+<div class="col-lg-4">
+<div class="card" style="width:450px">
+  <img class="card-img-top" src="hoa2.jpg" class="image-fluid" height="300" width="400">
+      <div class="container-fluid">
+      	<br>
+        <h2>John Doe</h2>
+        <p class="title">Designer</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>john@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+<br> <p class="about-section">_________________________________</p><br>
+</div>
+
+
+</section>
+
+</body>
+
+
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 16px 10px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+ 	
+<br>
+<br>
+<br>
+
+<!-- Footer-->
+<section>
+<style>
+.footer {
+  position: sticky;
+  left: 0;
+  bottom: 10;
+  width: 100%;
+  background-color: #FFF5EE;
+  color: #708090;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: px;
+}
+</style>
+
+<div class="footer">
+  <p>All rights reserverd Copyright </p> <br>
+<!-- css code-->
+<style>
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 3px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+</style>
+
+<!-- html code for socia media-->
+<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+<a href="https://twitter.com/" class="fa fa-twitter"></a>
+<a href="https://www.google.com/" class="fa fa-google"></a>
+<a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+<a href="https://www.pinterest.com/" class="fa fa-pinterest"></a>
+
+
+</div>
+</html>
+
+

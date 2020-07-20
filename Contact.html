@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- inside the head, attach all the exteral links --?
+    <!-- we are linking it yo CSS, Javascript &  Bootsrap 4 -->
+    <!-- We do it because of using a lot of bootstrap, styling code -->
+  <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+<!-- for a Responsive website - add this code -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- I have used few w3 css codes which can be found only in w3schools, so i add their link here -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<!-- give an external link for social media -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!-- for google fonts - add this code -->
+<link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
+<style>
+h1,h2,h3,h4,h5,h6 { font-family: "Merienda One" }
+
+body {
+  font-family: Arial, Helvetica, sans-serif
+  .w3-bar-block .w3-bar-item {padding 20px}
+}
+
+.lade{
+  font-family: "Merienda One", cursiver;
+  font-size: 30px;
+}
+</style>
+
+<!-- Nav bar -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <a class="navbar-brand lade" href="index.html">Lade</a>
+  
+  <ul class="navbar-nav ml-auto">
+      <li class="nav-item ">
+      <a class="nav-link" href="About.html">About us</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Gallery.html">Gallery</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Blog.html">Blog</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Contact.html">Contact</a>
+    </li>
+  </ul>
+</nav>
+<br>
+<br><br>  
+
+<style>
+h1,h2,h3,h4,h5,h6 { font-family: "Merienda One" }
+
+body {
+  font-family: Arial, Helvetica, sans-serif
+  .w3-bar-block .w3-bar-item {padding 20px}
+}
+
+.lade{
+  font-family: "Merienda One", cursiver;
+  font-size: 30px;
+}
+
+.about-section {
+  font-family: "Lato";
+  padding: 10px;
+  text-align: center;
+  color: #191970;
+}
+  * {
+    box-sizing: border-box;
+  }
+
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other 
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  } */
+  </style>
+  </head>
+  <body>
+
+  <div class="container">
+    <div style="text-align:center">
+      <h2>Contact Me</h2>
+      <p class="about-section">Swing by for a cup of coffee, or leave us a message:</p>
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="13.jpg" style="width:100%">
+      </div>
+      <div class="column">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+
+  </body>
+<br><br>
+<!-- Footer-->
+<section>
+<style>
+.footer {
+  position: sticky;
+  left: 0;
+  bottom: 10;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: px;
+}
+</style>
+
+<div class="footer">
+  <p>All rights reserverd Copyright </p> <br>
+<!-- css code-->
+<style>
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 3px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+
+</style>
+
+<!-- html code for socia media-->
+<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+<a href="https://twitter.com/" class="fa fa-twitter"></a>
+<a href="https://www.google.com/" class="fa fa-google"></a>
+<a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+<a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+<a href="https://www.pinterest.com/" class="fa fa-pinterest"></a>
+
+</html>
